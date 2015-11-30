@@ -1,0 +1,28 @@
+{
+  "name": "vdata-to-mailchimp-parser",
+  "version": "0.0.1",
+  "description": "A simple script tool that parses the e-mail addresses from a .vcf file and uploads them as contacts to mailchimp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "vdata",
+    "vcard",
+    "vcf",
+    "mailchimp"
+  ],
+  "author": "Alex Griciuc <agriciuc@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "mailchimp": "^1.1.3",
+    "validator": "^4.3.0",
+    "vdata-parser": "^0.1.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18"
+  }
+}
